@@ -1,0 +1,7 @@
+version: '2.1'
+
+services:
+  nodejs-todo-sample:
+    image: egoalesum/nodejs-todo-sample
+    ports:
+      - 3000:3000
